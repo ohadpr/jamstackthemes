@@ -1,7 +1,7 @@
 var mixer = mixitup('.grids', {
   multifilter: {
     enable: true,
-    logicWithinGroup: 'or',
+    logicWithinGroup: 'and',
     logicBetweenGroups: 'and'
   },
   animation: {
